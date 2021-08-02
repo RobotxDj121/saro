@@ -4,7 +4,7 @@ module.exports.config = {
     group: "info",
     example: '!Ping',
     usage: 'ping <member> <reason>',
-    botperms: ['EMBED_LINKS']  ////   description: "Ping command"
+    description: "Ping command"
 }
 
 module.exports.run = async(client, message, args) => {
