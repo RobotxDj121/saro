@@ -4,9 +4,9 @@ module.exports.config = {
     group: "info",
     example: '!Ping',
     usage: 'ping <member> <reason>',
-    description: "Ping command"
+    description: "Ping command"  ///Ping command
 }
-
+   botperms: ['EMBED_LINKS']
 module.exports.run = async(client, message, args) => {
     let msg = await message.channel.send('Pinging..');
 
